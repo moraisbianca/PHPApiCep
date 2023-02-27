@@ -1,12 +1,14 @@
 <?php
 
 namespace App\Controller;
+use App\Model\{EnderecoModel, CidadeModel};
 
-include 'Controller.php';
+
+//include 'Controller.php';
 
 class EnderecoController extends Controller
 {
-    public static function teste()
+    /* public static function teste()
     {
         //var_dump("oi");
         //parent::getResponseAsJSON("OI");
@@ -14,6 +16,26 @@ class EnderecoController extends Controller
         $cidades = ['Jaú', 'Bariri', 'Itapuí', 'Dois Córregos'];
 
         parent::getResponseAsJSON($cidades);
-    }
+    } */
     
+
+    public static function getLogradouroByCep()
+    {
+
+    }
+
+    public static function getLogradouroByBairroAndCidade()
+    {
+
+    }
+
+    public static function getCidadeByUf()
+    {
+
+    }
+
+    public static function getBairroByIdCidade()
+    {
+
+    }
 }

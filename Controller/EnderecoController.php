@@ -4,8 +4,6 @@ namespace App\Controller;
 use App\Model\{EnderecoModel, CidadeModel};
 
 
-//include 'Controller.php';
-
 class EnderecoController extends Controller
 {
     /* public static function teste()

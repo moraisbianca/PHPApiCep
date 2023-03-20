@@ -19,7 +19,7 @@ switch($url)
     break;
 
     case '/bairro/by-cidade':
-        EnderecoController::getBairroByIdCidade();
+        EnderecoController::getBairrosByIdCidade();
     break;
 
     default:

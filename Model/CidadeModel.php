@@ -1,6 +1,8 @@
 <?php
 
-namespace App\DAO\EnderecoDAO;
+namespace App\Model;
+
+use App\DAO\EnderecoDAO;
 
 class CidadeModel extends Model
 {
@@ -10,6 +12,6 @@ class CidadeModel extends Model
     {
         $dao = new EnderecoDAO();
 
-        $this->rows = $dao->selectedCidadesByUf($uf);
+        $this->rows = $dao->selectCidadesByUf($uf);
     }
 }

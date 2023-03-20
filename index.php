@@ -5,5 +5,3 @@ include 'autoload.php';
 include 'rotas.php';
 
 include 'Controller/EnderecoController.php';
-
-App\Controller\EnderecoController::teste();
